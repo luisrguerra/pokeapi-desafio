@@ -16,3 +16,7 @@ Tambem será necessário utilizar o JSON.stringify() para converter os dados for
 
 ### [Link da documentação do JSON.stringify() no w3schools](https://www.w3schools.com/jsref/jsref_stringify.asp)
 ### [Link da documentação do JSON.stringify() da Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)
+
+
+### Sugestões de extensões para o Visual Studio Code
+- Live Server - permite visualizar o arquivo html atualizando automáticamente toda vez que uma alteração for salva
