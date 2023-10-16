@@ -9,7 +9,7 @@ Neste desafio você irá terminar de implementar o funcionamento da Pokedex util
 
 ### PokeApi
 
-### [Link da documentação do pokeapi.co](https://pokeapi.co/docs/v2)
+#### [Link da documentação do pokeapi.co](https://pokeapi.co/docs/v2)
 
 Você poderá utilizar a seguinte url da api para pegar a lista de todos os pokémons:
 ```
@@ -35,29 +35,33 @@ Para o a imagem do Pokémon você utilizará o seguinte atributo fornecido pelo 
 }
 ```
 
-### [Exemplo de resultados da API](exemplo.md)
+#### [Exemplo de resultados da API](exemplo.md)
 
 ### Fetch
 
 Para conseguir utilizar a api você pode utilizar a função fetch nativa do Javascript.
 
-### [Vídeo de como usar o fetch](https://www.youtube.com/watch?v=m3K8DP4kVXQ&t=1s)
-### [Link da documentação do Fetch API no w3schools](https://www.w3schools.com/jsref/api_fetch.asp)
-### [Link da documentação do Fetch API da Mozilla](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API)
-### [Tutorial do Fetch API Devmedia](https://www.devmedia.com.br/javascript-fetch/41206)
+#### [Vídeo de como usar o fetch](https://www.youtube.com/watch?v=m3K8DP4kVXQ&t=1s)
+#### [Link da documentação do Fetch API no w3schools](https://www.w3schools.com/jsref/api_fetch.asp)
+#### [Link da documentação do Fetch API da Mozilla](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API)
+#### [Tutorial do Fetch API Devmedia](https://www.devmedia.com.br/javascript-fetch/41206)
 
 Tambem será necessário utilizar o Response.json() para converter os dados fornecido pela api para objeto javascript.
 
-### [Vídeo explicando .json()](https://www.youtube.com/watch?v=PmDtOBtZzhQ)
-### [Link da documentação do Response.json() da Mozilla](https://developer.mozilla.org/en-US/docs/Web/API/Response/json)
+#### [Vídeo explicando .json()](https://www.youtube.com/watch?v=PmDtOBtZzhQ)
+#### [Link da documentação do Response.json() da Mozilla](https://developer.mozilla.org/en-US/docs/Web/API/Response/json)
 
 O JSON.parse() é outra forma de converter os dados da api em JSON para objeto javascript, no caso ele converter uma string em sintaxe JSON para objeto javascript, diferentemente do "Response".json() que converte a resposta da api diretamente para objeto javascript.
 
-### [Vídeo explicando JSON.parse()](https://www.youtube.com/watch?v=cq5oTRH5_ZM)
-### [Link da documentação do JSON.parse() no w3schools](https://www.w3schools.com/js/js_json_parse.asp)
+#### [Vídeo explicando JSON.parse()](https://www.youtube.com/watch?v=cq5oTRH5_ZM)
+#### [Link da documentação do JSON.parse() no w3schools](https://www.w3schools.com/js/js_json_parse.asp)
 
 ### Sugestões de extensões para o Visual Studio Code
 - Live Server - permite visualizar o arquivo html atualizando automáticamente toda vez que uma alteração for salva
 
 ### Material complementar
-### [O que é uma api](https://youtu.be/PIro1he52Xw?t=101)
+#### [O que é uma api](https://youtu.be/PIro1he52Xw?t=101)
+
+
+### Desafio extra opcional
+Complemente a sua pokedex com mais informações sobre o Pokémon e deixe a interface mais bonita.
