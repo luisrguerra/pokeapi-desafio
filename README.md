@@ -54,3 +54,6 @@ Tambem será necessário utilizar o JSON.stringify() para converter os dados for
 
 ### Sugestões de extensões para o Visual Studio Code
 - Live Server - permite visualizar o arquivo html atualizando automáticamente toda vez que uma alteração for salva
+
+### Material complementar
+### [O que é uma api](https://youtu.be/PIro1he52Xw?t=101)
