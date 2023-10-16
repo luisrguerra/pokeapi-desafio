@@ -46,11 +46,13 @@ Para conseguir utilizar a api você pode utilizar a função fetch nativa do Jav
 ### [Link da documentação do Fetch API da Mozilla](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API)
 ### [Tutorial do Fetch API Devmedia](https://www.devmedia.com.br/javascript-fetch/41206)
 
-Tambem será necessário utilizar o JSON.stringify() para converter os dados fornecido pela api para objeto javascript.
+Tambem será necessário utilizar o Response.json() para converter os dados fornecido pela api para objeto javascript.
 
-### [Link da documentação do JSON.stringify() no w3schools](https://www.w3schools.com/jsref/jsref_stringify.asp)
-### [Link da documentação do JSON.stringify() da Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)
+### [Link da documentação do Response.json() da Mozilla](https://developer.mozilla.org/en-US/docs/Web/API/Response/json)
 
+O JSON.parse() é outra forma de converter os dados da api para JSON, no caso ele converter uma string para JSON, diferentemente do Response.json que converte a resposta da api diretamente para JSON.
+
+### [Link da documentação do JSON.parse() no w3schools](https://www.w3schools.com/js/js_json_parse.asp)
 
 ### Sugestões de extensões para o Visual Studio Code
 - Live Server - permite visualizar o arquivo html atualizando automáticamente toda vez que uma alteração for salva
