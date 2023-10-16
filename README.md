@@ -41,17 +41,19 @@ Para o a imagem do Pokémon você utilizará o seguinte atributo fornecido pelo 
 
 Para conseguir utilizar a api você pode utilizar a função fetch nativa do Javascript.
 
-### [Vídeo como usar o fetch](https://www.youtube.com/watch?v=m3K8DP4kVXQ&t=1s)
+### [Vídeo de como usar o fetch](https://www.youtube.com/watch?v=m3K8DP4kVXQ&t=1s)
 ### [Link da documentação do Fetch API no w3schools](https://www.w3schools.com/jsref/api_fetch.asp)
 ### [Link da documentação do Fetch API da Mozilla](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API)
 ### [Tutorial do Fetch API Devmedia](https://www.devmedia.com.br/javascript-fetch/41206)
 
 Tambem será necessário utilizar o Response.json() para converter os dados fornecido pela api para objeto javascript.
 
+### [Vídeo explicando .json()](https://www.youtube.com/watch?v=PmDtOBtZzhQ)
 ### [Link da documentação do Response.json() da Mozilla](https://developer.mozilla.org/en-US/docs/Web/API/Response/json)
 
-O JSON.parse() é outra forma de converter os dados da api para JSON, no caso ele converter uma string para JSON, diferentemente do Response.json que converte a resposta da api diretamente para JSON.
+O JSON.parse() é outra forma de converter os dados da api em JSON para objeto javascript, no caso ele converter uma string em sintaxe JSON para objeto javascript, diferentemente do "Response".json() que converte a resposta da api diretamente para objeto javascript.
 
+### [Vídeo explicando JSON.parse()](https://www.youtube.com/watch?v=cq5oTRH5_ZM)
 ### [Link da documentação do JSON.parse() no w3schools](https://www.w3schools.com/js/js_json_parse.asp)
 
 ### Sugestões de extensões para o Visual Studio Code
