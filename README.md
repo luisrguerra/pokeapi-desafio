@@ -15,6 +15,14 @@ Você poderá utilizar a seguinte url da api para pegar a lista de todos os pok�
 ```
 https://pokeapi.co/api/v2/pokemon/?offset=0&limit=1292
 ```
+Para pegar as informações do Pokémon atual utilize o seguinte endereço de url da api:
+```
+https://pokeapi.co/api/v2/pokemon/nome_do_pokemon
+
+ou
+
+https://pokeapi.co/api/v2/pokemon/numero_do_pokemon_apartir_do_numero_um
+```
 O parâmetro "offset" define a partir de qual pokémon começará a lista(array) de pokémons que deseja receber. Já o parâmetro "limit" define até qual número de pokémon você irá receber nessa lista. Esses parâmetros foram criados com o objetivo de reduzir o consumo de dados ao carregar uma grande quantidade de informações. Como a quantidade de pokemons máxima de 1292 é considerada pequena para quantidade de processamento do computador e velocidade da rede. Não é considerado um problema carregar todos os pokémons de uma vez nesse caso. No entanto, em uma situação em que houvesse um milhão de pokémons, isso poderia se tornar um problema. Se você não utilizar os parametros "offset" e "limit" a api "https://pokeapi.co/api/v2/pokemon/" irá retornar somente 20 pokémons por padrão, o que é uma quantidade muito pequena para esse desafio. Esse recurso de limitar o número de resultados em uma api se chama paginação ou pagination.
 
 ### Imagem do Pokémon
