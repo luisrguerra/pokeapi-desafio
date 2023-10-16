@@ -2,7 +2,7 @@
 
 ![screenshot](screenshot.png)
 
-Neste desafio você irá terminar de implementar o funcionamento da Pokedex utilizando o serviço pokeapi.co para conseguir as informações e imagens do Pokémon.
+Neste desafio você irá terminar de implementar o funcionamento da Pokedex utilizando o serviço pokeapi.co para conseguir as informações e imagens dos Pokémons. A Pokedex começará mostrando o primeiro pokémon com seu nome e imagem, ao usuário clicar nos botões "anterior" e "próximo" ele irá mudar o Pokémon mostrado e irá navegar na lista de Pokémons fornecidos pela api pokeapi. Ao o usuário clicar no botão anterior estando no primeiro pokémon, ele irá para o último pokémon e se ele estiver no último e clicar em próximo o contrário, ele irá retornar para o primeiro.
 
 ### PokeApi
 
