@@ -41,6 +41,7 @@ Para o a imagem do Pokémon você utilizará o seguinte atributo fornecido pelo 
 
 Para conseguir utilizar a api você pode utilizar a função fetch nativa do Javascript.
 
+### [Vídeo como usar o fetch](https://www.youtube.com/watch?v=m3K8DP4kVXQ&t=1s)
 ### [Link da documentação do Fetch API no w3schools](https://www.w3schools.com/jsref/api_fetch.asp)
 ### [Link da documentação do Fetch API da Mozilla](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API)
 ### [Tutorial do Fetch API Devmedia](https://www.devmedia.com.br/javascript-fetch/41206)
