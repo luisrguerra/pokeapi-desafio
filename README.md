@@ -7,6 +7,18 @@ Neste desafio você irá terminar de implementar o funcionamento da Pokedex util
 
 ![screenshot](screenshot2.png)
 
+Caso surjam dúvidas, você pode utilizar o canal da capacitação no slack, contatar algum membro ou conversar com seu squad.
+
+Na EngNet utilizamos uma ferramenta personalizada do ChatGPT para aprendizado e melhor rendimento no desenvolvimento dos projetos, chamada de ZillaGPT. Você pode utilizar o ZillaGPT como seu professor particular para consultar informações técnicas sobre o javascript. [https://zillagpt.engnetconsultoria.com.br/](https://zillagpt.engnetconsultoria.com.br/)
+
+### Entrega
+
+- Você deve realizar um fork deste repositório para sua conta pessoal no GitHub. A entrega só será considerada válida se estiver incluída em uma release no seu novo repositório no GitHub. Se o candidato não souber como realizar um Fork, Commit, Push e uma Release no GitHub, deverá pesquisar ou pedir ajuda. O desafio também avaliará sua independência.
+
+- Após fazer a release do seu repositório enviei o arquivo zip da release para o Google Classrom
+
+- Você não deve excluir o repositório e nem a release após a entrega, pois a utilização do GitHub será avaliada.
+
 ### PokeApi
 
 #### [Link da documentação do pokeapi.co](https://pokeapi.co/docs/v2)
@@ -26,7 +38,7 @@ https://pokeapi.co/api/v2/pokemon/numero_do_pokemon_apartir_do_numero_um
 O parâmetro "offset" define a partir de qual pokémon começará a lista(array) de pokémons que deseja receber. Já o parâmetro "limit" define até qual número de pokémon você irá receber nessa lista. Esses parâmetros foram criados com o objetivo de reduzir o consumo de dados ao carregar uma grande quantidade de informações. Como a quantidade de pokemons máxima de 1292 é considerada pequena para quantidade de processamento do computador e velocidade da rede. Não é considerado um problema carregar todos os pokémons de uma vez nesse caso. No entanto, em uma situação em que houvesse um milhão de pokémons, isso poderia se tornar um problema. Se você não utilizar os parametros "offset" e "limit" a api "https://pokeapi.co/api/v2/pokemon/" irá retornar somente 20 pokémons por padrão, o que é uma quantidade muito pequena para esse desafio. Esse recurso de limitar o número de resultados em uma api se chama paginação ou pagination.
 
 ### Imagem do Pokémon
-Para o a imagem do Pokémon você utilizará o seguinte atributo fornecido pelo resultado da api para o pokémon especifico:
+Para a imagem do Pokémon você utilizará o seguinte atributo fornecido pelo resultado da api para o pokémon especifico:
 ```
 {
  "sprites": {
@@ -36,6 +48,12 @@ Para o a imagem do Pokémon você utilizará o seguinte atributo fornecido pelo 
 ```
 
 #### [Exemplo de resultados da API](exemplo.md)
+
+### Async/Await
+
+Para conseguir fazer esse desafio você precisa aprender como funciona o modo assíncrono do javascript. Como criar uma função assíncrona e utilizar o await.
+
+[Mario Souto explicando Async e Await](https://www.youtube.com/watch?v=q28lfkBd9F4)
 
 ### Fetch
 
@@ -61,7 +79,6 @@ O JSON.parse() é outra forma de converter os dados da api em JSON para objeto j
 
 ### Material complementar
 #### [O que é uma api](https://youtu.be/PIro1he52Xw?t=101)
-
 
 ### Desafio extra opcional
 Complemente a sua pokedex com mais informações sobre o Pokémon e deixe a interface mais bonita.
