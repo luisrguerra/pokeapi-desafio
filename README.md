@@ -54,6 +54,8 @@ Para a imagem do Pokémon você utilizará o seguinte atributo fornecido pelo re
 Para conseguir fazer esse desafio você precisa aprender como funciona o modo assíncrono do javascript. Como criar uma função assíncrona e utilizar o await.
 
 [Mario Souto explicando Async e Await](https://www.youtube.com/watch?v=q28lfkBd9F4)
+#### [Link da documentação do Async no w3schools](https://www.w3schools.com/js/js_async.asp)
+#### [Link da documentação do Async da Mozilla](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/async_function)
 
 ### Fetch
 
